@@ -24,7 +24,7 @@ XMLConfigParser::~XMLConfigParser()
 //*****************************************************************************
 bool XMLConfigParser::Load_Config()
 {
-	const std::string FILE_NAME = XBEE_CONFIG_PATH;
+	const std::string FILE_NAME = "/home/ss/catkin_ws2/src/XbeeMav/Resources/XBee_Config.xml";
 
 	if (Check_Config_File_Exists(FILE_NAME))
 	{
